@@ -1,0 +1,126 @@
+@import "normalize.css";
+body {
+  background: #1a1a1a url("bg.png") repeat;
+}
+a {
+  color: #ddd;
+  text-decoration: none;
+  display: block;
+  float: none;
+}
+ul {
+  list-style: none;
+  padding: 6px 4px 8px 6px;
+  margin: 0;
+  width: 180px;
+  float: left;
+  clear: none;
+}
+input[type="submit"] {
+  display: none;
+}
+input {
+  background-color: #1a1a1a;
+  color: #ddd;
+  border: none;
+  font-family: consolas;
+  padding: 0;
+}
+#container {
+  background-color: #1a1a1a;
+  font-family: consolas;
+  font-size: 13px;
+  width: 585px;
+  height: 290px;
+  padding: 5px;
+  border: 6px solid #404040;
+  color: #404040;
+}
+#container #links {
+  margin: 7px 0 0 2px;
+  font-size: 12px;
+  height: 172px;
+  width: 570px;
+}
+#container .PS1 {
+  padding: 5px 0 0 5px;
+  display: block;
+  width: 585px;
+}
+#container .PS1 #search {
+  float: left;
+  margin: 0 0 0 6px;
+  padding: 0;
+}
+#container .PS1:nth-of-type(1)::after {
+  content: ' about -kopri';
+  margin: 0 0 0 6px;
+  font-size: 13px;
+  color: #b8d68c;
+}
+.at::before {
+  content: 'kopri';
+  color: #b8d68c;
+}
+.at {
+  float: left;
+  color: #ccc;
+}
+.at::after {
+  content: 'mooo';
+  color: #4e9fb1;
+}
+.amper::before {
+  content: ":";
+  color: #ccc;
+}
+.amper {
+  float: left;
+  color: #9b64fb;
+}
+.amper::after {
+  content: " >>";
+  color: #e84f4f;
+}
+.main li {
+  color: #e84f4f;
+}
+.main li a:hover {
+  color: #d23d3d;
+  transition: color 1s;
+}
+.utils li {
+  color: #b8d68c;
+}
+.utils li a:hover {
+  color: #a0cf5d;
+  transition: color 1s;
+}
+.gfx li {
+  color: #e1aa5d;
+}
+.gfx li a:hover {
+  color: #f39d21;
+  transition: color 1s;
+}
+.unix li {
+  color: #4d679a;
+}
+.unix li a:hover {
+  color: #4e9fb1;
+  transition: color 1s;
+}
+.forums li {
+  color: #9b64fb;
+}
+.forums li a:hover {
+  color: #8542ff;
+  transition: color 1s;
+}
+.bits li {
+  color: #6d878d;
+}
+.bits li a:hover {
+  color: #42717b;
+  transition: color 1s;
+}
