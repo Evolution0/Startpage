@@ -16,6 +16,11 @@ ul {
   float: left;
   clear: none;
 }
+ul li a:empty:after {
+  content: "██████";
+  color: rgba(0,0,0,0);
+  cursor: default;
+}
 input[type="submit"] {
   display: none;
 }
